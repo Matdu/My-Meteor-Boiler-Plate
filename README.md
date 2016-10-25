@@ -1,5 +1,5 @@
 # My Meteor Boilerplate
-_A simple but efficient(for **ME** at least :D) Meteor Boilerplate using Blaze, Materialize and Flow Router._
+_A simple but efficient(for **ME** at least :D) Meteor Boilerplate using **Blaze**, **Materialize** and **Flow Router**._
 
 ## Packages
 * **Usefull/Basics**
