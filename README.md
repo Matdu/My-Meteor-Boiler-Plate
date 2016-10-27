@@ -1,7 +1,9 @@
-# My Meteor Boilerplate
+# <a name="my-meteor-boilerplate"></a> My Meteor Boilerplate
 _A simple yet efficient(for **ME** at least :D) Meteor Boilerplate using **Blaze**, **Materialize** and **Flow Router**._
 
-## Packages
+_This Boilerplate is based on different boilerplates that I've found, while using a structure that fits into my needs._
+
+## <a name="packages"></a> Packages
 * **Usefull/Basics**
   * [juliancwirko:s-alert](http://s-alert.meteorapp.com/)
   * [settinghead:auto-nprogress](https://atmospherejs.com/settinghead/auto-nprogress)
@@ -49,7 +51,29 @@ _A simple yet efficient(for **ME** at least :D) Meteor Boilerplate using **Blaze
 * **Production**
   * [ddp-rate-limiter](https://atmospherejs.com/meteor/ddp-rate-limiter)
 
-## Folder Structure
+## <a name="installation"></a> Installation
+
+1. Clone this repo to `<yourapp>`
+
+  `git clone https://github.com/Matdu/My-Meteor-Boilerplate.git <yourapp>`
+
+2. Remove `.git` folder (and REAMDE.md file)
+
+  `cd <yourapp> && rm -rf .git`
+
+3. Install npm packages
+  
+  `meteor npm install`
+  or
+  `npm install`
+
+4. Start meteor server
+  
+  `meteor`
+
+5. Let the coding begin!
+
+## <a name="folder-structure"></a> Folder Structure
     Main Folder                                           
     ├── client                                            
     │   ├── main.js                                       \\ import client files
