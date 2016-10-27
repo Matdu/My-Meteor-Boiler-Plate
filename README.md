@@ -1,5 +1,5 @@
 # My Meteor Boilerplate
-_A simple but efficient(for **ME** at least :D) Meteor Boilerplate using **Blaze**, **Materialize** and **Flow Router**._
+_A simple yet efficient(for **ME** at least :D) Meteor Boilerplate using **Blaze**, **Materialize** and **Flow Router**._
 
 ## Packages
 * **Usefull/Basics**
@@ -63,8 +63,8 @@ _A simple but efficient(for **ME** at least :D) Meteor Boilerplate using **Blaze
     |   |       ├── methods.js                            \\ users api methods
     |   |       └── users.js                              \\ users api init
     |   ├── startup
-    |   |   ├── client                                    \\ client startup
-    |   |   |   ├── routes                                \\ routes files
+    |   |   ├── client                                    
+    |   |   |   ├── routes                                
     |   |   |   |   ├── private                           \\ private routes files
     |   |   |   |   ├── private.js                        \\ private routes imports and main private route declaration
     |   |   |   |   ├── public.js                         \\ public routes
@@ -98,10 +98,10 @@ _A simple but efficient(for **ME** at least :D) Meteor Boilerplate using **Blaze
     |           ├── home.html
     |           ├── home.js
     |           ├── layout.html                           \\ main container view
-    |           ├── layout.js                             \\ imports the html view(same name)
+    |           ├── layout.js                             \\ import the html view(same name)
     |           ├── login.html
     |           ├── login.js
     |           ├── not-found.html
     |           └── not-found.js
     └── server
-        └── main.js                                       \\ imports server files
+        └── main.js                                       \\ import server files
