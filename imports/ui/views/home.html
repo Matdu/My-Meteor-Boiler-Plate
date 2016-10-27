@@ -1,0 +1,8 @@
+<template name="public.home">
+	{{#if currentUser}}
+	<a href="/private">Acessar Area Privada</a>
+	<p>
+		Seja Bem Vindo, <b>{{#if isEmpty currentUser.profile.name}}{{currentUser.username}}{{else}}{{currentUser.profile.name}}{{/if}}</b> (<a class="js-logout">Logout</a>)
+	</p>
+	{{/if}}
+</template>

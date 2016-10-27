@@ -1,0 +1,14 @@
+<template name="private.index">
+    <p>
+        Area privada amigo!
+    </p>
+    <div>
+    	<ul>
+    		{{#each user in users}}
+    		<li>
+    			{{user.username}}
+    		</li>
+    		{{/each}}
+    	</ul>
+    </div>
+</template>
