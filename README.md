@@ -48,3 +48,60 @@ _A simple but efficient(for **ME** at least :D) Meteor Boilerplate using **Blaze
   
 * **Production**
   * [ddp-rate-limiter](https://atmospherejs.com/meteor/ddp-rate-limiter)
+
+## Folder Structure
+    Main Folder
+    ├── client
+    │   ├── main.js
+    |   └── main.less
+    ├── imports
+    │   ├── api
+    |   |   └── users
+    |   |       ├── server
+    |   |       |   └── publications.js
+    |   |       ├── config.js
+    |   |       ├── methods.js
+    |   |       └── users.js
+    |   ├── startup
+    |   |   ├── client
+    |   |   |   ├── routes 
+    |   |   |   |   ├── private
+    |   |   |   |   ├── private.js
+    |   |   |   |   ├── public.js
+    |   |   |   |   └── security.js
+    |   |   |   ├── config.js
+    |   |   |   ├── index.js
+    |   |   |   ├── routes.js
+    |   |   |   └── template-helpers.js
+    |   |   ├── config
+    |   |   |   ├── accounts-config.js
+    |   |   |   ├── accounts-t9n.js
+    |   |   |   ├── at-config.js
+    |   |   |   └── index.js
+    |   |   ├── forms
+    |   |   |   └── private
+    |   |   ├── server
+    |   |   |   ├── index.js
+    |   |   |   └── register-api.js
+    |   |   ├── services
+    |   |   |   └── notifier.service.js
+    |   |   └── utils
+    |   |       └── validated-method-mixins.js
+    |   └── ui
+    |       ├── stylesheets
+    |       |   ├── base.less
+    |       |   └── main.less
+    |       └── views
+    |           ├── private
+    |           |   ├── index.html
+    |           |   └── index.js
+    |           ├── home.html
+    |           ├── home.js
+    |           ├── layout.html
+    |           ├── layout.js
+    |           ├── login.html
+    |           ├── login.js
+    |           ├── not-found.html
+    |           └── not-found.js
+    └── server
+        └── main.js
