@@ -50,58 +50,58 @@ _A simple but efficient(for **ME** at least :D) Meteor Boilerplate using **Blaze
   * [ddp-rate-limiter](https://atmospherejs.com/meteor/ddp-rate-limiter)
 
 ## Folder Structure
-    Main Folder
-    ├── client
-    │   ├── main.js
-    |   └── main.less
-    ├── imports
-    │   ├── api
-    |   |   └── users
-    |   |       ├── server
-    |   |       |   └── publications.js
-    |   |       ├── config.js
-    |   |       ├── methods.js
-    |   |       └── users.js
+    Main Folder                                           
+    ├── client                                            
+    │   ├── main.js                                       \\ import client files
+    |   └── main.less                                     \\ import client styles
+    ├── imports                                           
+    │   ├── api                                           
+    |   |   └── users                                     \\ ie.: user api
+    |   |       ├── server                                \\ server files from user api
+    |   |       |   └── publications.js                   \\ publications from user api
+    |   |       ├── config.js                             \\ in this specific case: Accounts configuration
+    |   |       ├── methods.js                            \\ users api methods
+    |   |       └── users.js                              \\ users api init
     |   ├── startup
-    |   |   ├── client
-    |   |   |   ├── routes 
-    |   |   |   |   ├── private
-    |   |   |   |   ├── private.js
-    |   |   |   |   ├── public.js
-    |   |   |   |   └── security.js
-    |   |   |   ├── config.js
-    |   |   |   ├── index.js
-    |   |   |   ├── routes.js
-    |   |   |   └── template-helpers.js
-    |   |   ├── config
-    |   |   |   ├── accounts-config.js
-    |   |   |   ├── accounts-t9n.js
-    |   |   |   ├── at-config.js
-    |   |   |   └── index.js
-    |   |   ├── forms
-    |   |   |   └── private
+    |   |   ├── client                                    \\ client startup
+    |   |   |   ├── routes                                \\ routes files
+    |   |   |   |   ├── private                           \\ private routes files
+    |   |   |   |   ├── private.js                        \\ private routes imports and main private route declaration
+    |   |   |   |   ├── public.js                         \\ public routes
+    |   |   |   |   └── security.js                       \\ security configurations
+    |   |   |   ├── config.js                             \\ client startup configurations
+    |   |   |   ├── index.js                              \\ imports from startup client
+    |   |   |   ├── routes.js                             \\ import routes
+    |   |   |   └── template-helpers.js                   \\ common template helpers
+    |   |   ├── config                                    \\\\ any necessary startup configuration should go here
+    |   |   |   ├── accounts-config.js                    \\ startup accounts configuration
+    |   |   |   ├── accounts-t9n.js                       \\ startup accounts internationalization configuration
+    |   |   |   ├── at-config.js                          \\ startup accounts template configuration
+    |   |   |   └── index.js                              \\ import configurations
+    |   |   ├── forms                                     \\\\ any form content should go here
+    |   |   |   └── private                               \\ private forms
     |   |   ├── server
-    |   |   |   ├── index.js
-    |   |   |   └── register-api.js
+    |   |   |   ├── index.js                              \\ import from startup server
+    |   |   |   └── register-api.js                       \\ import api files(ie.: methods, publications)
     |   |   ├── services
-    |   |   |   └── notifier.service.js
+    |   |   |   └── notifier.service.js                   \\ service to make notifications easier to use
     |   |   └── utils
-    |   |       └── validated-method-mixins.js
+    |   |       └── validated-method-mixins.js            \\ method mixins validations (ie.: check schema, isAdmin, isServer)
     |   └── ui
     |       ├── stylesheets
-    |       |   ├── base.less
-    |       |   └── main.less
+    |       |   ├── base.less                             \\ base stylesheet
+    |       |   └── main.less                             \\ import all stylsheets
     |       └── views
-    |           ├── private
+    |           ├── private                               \\ private route layouts
     |           |   ├── index.html
     |           |   └── index.js
     |           ├── home.html
     |           ├── home.js
-    |           ├── layout.html
-    |           ├── layout.js
+    |           ├── layout.html                            \\ main container view
+    |           ├── layout.js                              \\ imports the html view(same name)
     |           ├── login.html
     |           ├── login.js
     |           ├── not-found.html
     |           └── not-found.js
     └── server
-        └── main.js
+        └── main.js                                        \\ imports server files
