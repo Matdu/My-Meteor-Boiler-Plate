@@ -129,3 +129,14 @@ _This Boilerplate is based on different boilerplates that I've found, while usin
     |           └── not-found.js
     └── server
         └── main.js                                       \\ import server files
+        
+        
+## <a name="copyright"></a> Copyright
+This project has **MIT License** so...  You got it, literally.
+
+## <a name="contribution"></a> Contribution
+Feel there's something missing? **[Open an issue](https://github.com/Matdu/My-Meteor-Boilerplate/issues)**!
+
+[**Pull requests**](https://github.com/Matdu/My-Meteor-Boilerplate/pulls) are **ALWAYS** appreciated!
+
+Thank you! :balloon:
