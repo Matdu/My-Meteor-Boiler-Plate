@@ -97,11 +97,11 @@ _A simple but efficient(for **ME** at least :D) Meteor Boilerplate using **Blaze
     |           |   └── index.js
     |           ├── home.html
     |           ├── home.js
-    |           ├── layout.html                            \\ main container view
-    |           ├── layout.js                              \\ imports the html view(same name)
+    |           ├── layout.html                           \\ main container view
+    |           ├── layout.js                             \\ imports the html view(same name)
     |           ├── login.html
     |           ├── login.js
     |           ├── not-found.html
     |           └── not-found.js
     └── server
-        └── main.js                                        \\ imports server files
+        └── main.js                                       \\ imports server files
