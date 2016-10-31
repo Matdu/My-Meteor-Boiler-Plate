@@ -37,6 +37,3 @@ AutoForm.addHooks(null, {
 
 // NProgress
 NProgress.configure({showSpinner: false});
-
-//Login Flow
-Meteor.loginWithFacebook({ loginStyle: "redirect" });
