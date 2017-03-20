@@ -17,7 +17,6 @@ less
 # basics
 momentjs:moment@2.15.1
 fourseven:scss
-materialize:materialize
 fortawesome:fontawesome
 juliancwirko:s-alert
 juliancwirko:s-alert-slide
